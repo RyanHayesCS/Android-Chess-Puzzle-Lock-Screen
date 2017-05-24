@@ -7,6 +7,7 @@ import android.util.Log;
 
 /**
  * Created by William on 11/10/2015.
+ * Edited by Ryan Hayes; Fall 2017
  * This class runs in the background whenever the lockscreen is active.
  * When the alarm clock goes off and the Lockscreen is active, the lockscreen is closed (finished)
  *      and the user should see the alarm screen so he/she can stop the alarm.
