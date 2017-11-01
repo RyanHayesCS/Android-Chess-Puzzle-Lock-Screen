@@ -6,7 +6,7 @@
 
   When the user locks their phone, the application’s LS_Reciever class communicates to the LS_Service class that the screen has been locked. From here, the LS_Service class reads a new chess puzzle from the list of chess puzzles which is stored on the phone. The NewLockscreen class then takes this puzzle and initializes the lock screen. This is done by using an alert dialog in order to create a window which cannot be by-passed through the phone’s physical buttons, as well as touch gestures. A gridview layout is then used to draw a chessboard by using a collection of image resources. The Board class is used in order to draw the entire board, as well as handle touch gestures. The Tile class is used to draw individual squares, as well as (in conjunction with the Board class) calculate if moves are legal (a feature which is not currently necessary).
 
-  When going to unlock or turn off their phone, the user is presented with a chess puzzle. If they are able to solve the puzzle within 3 attempts, their phone will be unlocked. Otherwise, they will be brought to a default lock screen which asks them to enter the aforementioned default passcode. 
+  When going to unlock or turn on their phone, the user is presented with a chess puzzle. If they are able to solve the puzzle within 3 attempts, their phone will be unlocked. Otherwise, they will be brought to a default lock screen which asks them to enter the aforementioned default passcode. 
 
   To solve the problem of how this lock screen would receive new puzzles, we chose to create a server which would send the puzzles to the user’s phone. The server runs on the Ubuntu 16.04 operating system. We installed Apache Tomcat 7 onto our server in order to implement a Java Servlet onto our server.
 
