@@ -1,6 +1,6 @@
 # Android-Chess-Puzzle-Lock-Screen
 
-***This version of the application is currently not working due to the java servlet which the application relies on being down indefiitely. Providing the application with a file of syntactically correct puzzles should get around this issue.*** 
+***This version of the application is currently not working due to the java servlet which the application relies on being down indefinitely. Providing the application with a file of syntactically correct puzzles should get around this issue.*** 
 
   The Chess Puzzle Lock Screen is an Android application which is meant to be used as a replacement for the standard lock screen. Rather than asking the user for a passcode, it requires them to solve a chess puzzle in order to unlock their phone. This project was created in Android Studio.
 
